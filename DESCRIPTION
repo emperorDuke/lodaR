@@ -10,3 +10,6 @@ License: MIT
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/emperorDuke/lodaR
+RoxygenNote: 7.2.3
+Imports:
+  stringi

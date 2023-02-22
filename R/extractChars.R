@@ -4,7 +4,7 @@
 #' It is generally a simple wrapper around the stringi::extract_all
 #' package.
 #'
-#' @param chr_vec a character vector
+#' @param chrs_vec a character vector
 #' @param regx a regex pattern
 #' @param bind_with an optional character that will be used to bind the fragments
 #' @return a character vector

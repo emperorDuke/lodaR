@@ -2,7 +2,7 @@
 #'
 #' This function converts the first letter on a word to uppercase.
 #'
-#' @param chr_vec a character vector to be converted
+#' @param char_vec a character vector to be converted
 #' @param all.fragments a logical value indicating if all the word fragments should be converted. It default to TRUE
 #' @return a character vector
 #' @export

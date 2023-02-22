@@ -10,15 +10,15 @@ abbreviate_species <- function(names) {
 
   sapply(names, function(name) {
     strs_vec <- stringi::stri_extract_all(name, regex = regx)
-    strs_vec <- lodaR::strip_white_spaces(unlist(strs_vec))
-    strs_vec <- lodaR::capitalize(strs_vec, all = FALSE)
+    strs_vec <- strip_white_spaces(unlist(strs_vec))
+    strs_vec <- capitalize(strs_vec, all.fragments = FALSE)
 
     ## check if there is a dot in the species names
     ## the name might be formatted already or contains dot for no reason
     ## before getting to this function
     ## revert the formatting before proceeding
     if (stringi::stri_detect_fixed(name, pattern = ".")) {
-      strs_vec <- unlist(stringi::stri_split_fixed(extract_char(strs_vec),
+      strs_vec <- unlist(stringi::stri_split_fixed(extract_chars(strs_vec),
                                          pattern = '.'))
     }
 
