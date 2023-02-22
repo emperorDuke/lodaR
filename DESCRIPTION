@@ -1,15 +1,14 @@
-Package: LodaR
+Package: lodaR
 Type: Package
-Title: Utility package for everyday activity in R (LodaR)
+Title: Utility package for everyday activity in R (lodaR)
 Version: 0.1.0
 Author: Effiom duke
 Maintainer: Effiom duke <effiomduke@gmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Contains utility for everyday use in R.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/emperorDuke/lodaR
+URL: https://github.com/emperorDuke/lodaR.git
 RoxygenNote: 7.2.3
 Imports:
   stringi
