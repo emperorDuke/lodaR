@@ -9,7 +9,7 @@ extract_chars(chrs_vec, regx = "[a-zA-Z]+", bind_with = ".")
 \arguments{
 \item{chrs_vec}{a character vector}
 
-\item{regx}{a regex pattern}
+\item{regx}{a reg-ex pattern}
 
 \item{bind_with}{an optional character that will be used to bind the fragments}
 }
@@ -17,7 +17,7 @@ extract_chars(chrs_vec, regx = "[a-zA-Z]+", bind_with = ".")
 a character vector
 }
 \description{
-This function extracts characters matching the regex pattern.
+This function extracts characters matching the reg-ex pattern.
 It is generally a simple wrapper around the stringi::extract_all
 package.
 }

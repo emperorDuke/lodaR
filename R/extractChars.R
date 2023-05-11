@@ -1,11 +1,11 @@
 #' Extract characters of interest
 #'
-#' This function extracts characters matching the regex pattern.
+#' This function extracts characters matching the reg-ex pattern.
 #' It is generally a simple wrapper around the stringi::extract_all
 #' package.
 #'
 #' @param chrs_vec a character vector
-#' @param regx a regex pattern
+#' @param regx a reg-ex pattern
 #' @param bind_with an optional character that will be used to bind the fragments
 #' @return a character vector
 #' @export

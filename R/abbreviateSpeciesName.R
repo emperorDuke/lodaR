@@ -6,7 +6,7 @@
 #' @return a character vector
 #' @export
 abbreviate_species <- function(names) {
-  regx <- '(?<!\\w)[\\w]{1,1}|(\\s|\\.)[\\w]+'
+  regx <- '^[\\w]{1,1}|(\\s|\\.)[\\w]+'
 
   sapply(names, function(name) {
     strs_vec <- stringi::stri_extract_all(name, regex = regx)

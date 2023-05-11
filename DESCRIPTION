@@ -11,4 +11,6 @@ LazyData: true
 URL: https://github.com/emperorDuke/lodaR.git
 RoxygenNote: 7.2.3
 Imports:
-  stringi
+  stringi,
+  tibble,
+  stats
